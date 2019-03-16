@@ -18,6 +18,6 @@ class PostsController < ApplicationController
     post.title = params[:title]
     post.description = Parmas[:description]
     post.save
-    
+
   end
 end
